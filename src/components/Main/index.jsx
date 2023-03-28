@@ -1,20 +1,18 @@
 import React from "react";
 import "./style.scss";
-import Header from "./../Header";
-import Navbar from "./../navbar";
 import Text from "./text";
-// import Ite from "./Ite";
 import Video from "./video";
+import Card from "./../Ui/Cards";
 const index = () => {
   return (
     <>
       <div className="container">
-        <div className="hero relative py-2 ">
+        <div className="hero relative py-2">
           <Video />
-          <div className="w-full flex items-center justify-between ">
+          <div className="w-full relative flex bg-image items-center justify-between ">
             <Text />
-            {/* <Ite /> */}
           </div>
+          <Card />
         </div>
       </div>
     </>

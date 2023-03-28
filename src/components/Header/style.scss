@@ -1,7 +1,12 @@
 .header {
-  padding: 20px 30px;
+  width: 80%;
+  margin-left: 250px;
+  margin-top: 10px;
+  padding: 15px 30px;
+  background: var(--body-bg);
+  border-radius: 15px;
 }
-.avatar{
+.avatar {
   width: 36px;
   height: 36px;
   background: #1c0ccc;

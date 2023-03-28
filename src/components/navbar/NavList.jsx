@@ -7,6 +7,7 @@ import {
   MdMusicVideo,
   MdRssFeed,
 } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 const NavList = () => {
   return (
     <div className="flex flex-col items-start justify-between w-full p-2">
@@ -16,27 +17,27 @@ const NavList = () => {
       <ul className="list-none nav-list w-full flex items-start justify-between gap-2 flex-col">
         <li className="flex items-center title p-3 justify-start w-full hover:bg-cyan-600 gap-4 rounded-lg">
           <MdRssFeed className="w-6 h-6" />
-          New Feed
+          <NavLink to={"/trend"}>New Feed</NavLink>
         </li>
         <li className="flex items-center title p-3 justify-start w-full hover:bg-cyan-600 gap-4 rounded-lg">
           <BsTree className="w-6 h-6" />
-          Trending
+          <NavLink to={"/trend"}>Trending</NavLink>
         </li>
         <li className="flex items-center p-3 title justify-start w-full hover:bg-cyan-600 gap-4 rounded-lg">
           <MdFeaturedPlayList className="w-6 h-6" />
-          Playlist
+          <NavLink to={"/play"}>Playlist</NavLink>
         </li>
         <li className="flex items-center p-3 title justify-start w-full hover:bg-cyan-600 gap-4 rounded-lg">
           <MdAppShortcut className="w-6 h-6" />
-          Shorts
+          <NavLink to={"/shorts"}>Shorts</NavLink>
         </li>
         <li className="flex items-center p-3 title justify-start w-full hover:bg-cyan-600 gap-4 rounded-lg">
           <MdStream className="w-6 h-6" />
-          Stream
+          <NavLink to={"/stream"}>Stream</NavLink>
         </li>
         <li className="flex items-center p-3 title justify-start w-full hover:bg-cyan-600 gap-4 rounded-lg">
           <MdMusicVideo className="w-6 h-6" />
-          Music
+          <NavLink to={"/music"}>Music</NavLink>
         </li>
       </ul>
     </div>

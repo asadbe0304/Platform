@@ -8,12 +8,14 @@ import Hero from "./../Main";
 const index = () => {
   return (
     <>
-      <div className="w-full flex items-center header justify-between gap-1">
-        <Browser />
-        <Input />
-        <div className="flex items-center justify-between gap-4">
-          <Inbox />
-          <Avatar />
+      <div className="container">
+        <div className="flex items-center header justify-between gap-1">
+          <Browser />
+          <Input />
+          <div className="flex items-center justify-between gap-4">
+            <Inbox />
+            <Avatar />
+          </div>
         </div>
       </div>
     </>

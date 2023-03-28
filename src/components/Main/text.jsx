@@ -2,7 +2,7 @@ import React from "react";
 
 const text = () => {
   return (
-    <div className="flex hero-left items-start flex-col justify-center gap-3">
+    <div className="flex  hero-left w-full items-start flex-col justify-end h-full gap-3">
       <h3 className="title font-bold  hero-title">
         League Season 16 - Playoffs
       </h3>

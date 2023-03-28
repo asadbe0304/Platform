@@ -1,0 +1,14 @@
+.card {
+  width: 24%;
+  background: var(--body-bg);
+  transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+  background: radial-gradient(
+    50% 128.57% at 50% -36.61%,
+    #8015a7 0%,
+    rgba(98, 54, 144, 0.711) 100%
+  );
+  box-shadow: -10px 30px 80px rgba(59, 38, 123, 0.7);
+}

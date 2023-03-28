@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import NavList from "./NavList";
 import NavLogo from "./NavLogo";
 import "./style.scss";
+import Video from "./../Main/video";
 
 const index = () => {
   return (

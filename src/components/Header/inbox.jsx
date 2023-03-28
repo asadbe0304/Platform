@@ -6,8 +6,6 @@ const inbox = () => {
   return (
     <>
       <div className="flex items-center justify-between gap-4">
-        <BsPlusSquareFill className="w-5 h-5 title" />
-        <MdAddComment className="w-6 h-6 title" />
         <div className="relative">
           <MdNotifications className="w-6 h-6 title" />
           <span className="w-3 h-3 rounded-full bg-orange-600 absolute top-0 right-0 p-0 title"></span>

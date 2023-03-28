@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-  --body-bg: #201f26;
+  --body-bg: #201f267e;
   --btn: #6b5ad8;
   --title: #727178;
   --color: #fff;
@@ -16,8 +16,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(180deg, #2b2f53 3.16%, #1d1c34 36.05%);
-  box-shadow: 40px 60px 150px rgba(59, 38, 123, 0.7);
+  /* background: linear-gradient(180deg, #2b2f53 3.16%, #1d1c34 36.05%); */
+  /* box-shadow: 40px 60px 150px rgba(59, 38, 123, 0.7); */
 }
 .container {
   max-width: 1440px;
