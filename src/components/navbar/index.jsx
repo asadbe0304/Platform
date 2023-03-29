@@ -10,18 +10,18 @@ const index = () => {
     dispatch,
   } = customHook();
 
-  useEffect(() => {
-    const body = document.querySelector("body");
-    body.style.overflow = navbar ? "auto" : "hidden";
+  // useEffect(() => {
+  //   const body = document.querySelector("body");
+  //   body.style.overflow = navbar ? "auto" : "hidden";
 
-    body.addEventListener("click", () => {
-      if (body.classList.contains(navbar)) {
-        alert("s");
-      }else{
-        // alert("no")
-      }
-    });
-  }, [navbar]);
+  //   body.addEventListener("click", () => {
+  //     if (body.classList.contains(navbar)) {
+  //       alert("s");
+  //     }else{
+  //       // alert("no")
+  //     }
+  //   });
+  // }, [navbar]);
 
   return (
     <>
