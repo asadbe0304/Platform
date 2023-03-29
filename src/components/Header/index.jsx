@@ -8,8 +8,6 @@ import { customHook } from "../../hooks/hooks";
 
 const index = () => {
   const {
-
-    
     state: { navbar },
   } = customHook();
   return (
