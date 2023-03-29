@@ -8,7 +8,13 @@ import {
   MdRssFeed,
 } from "react-icons/md";
 import { NavLink } from "react-router-dom";
+import { customHook } from "../../hooks/hooks";
 const NavList = () => {
+  const {
+    state: { navbar },
+    dispatch,
+  } = customHook();
+
   return (
     <div className="flex flex-col items-start justify-between w-full p-2">
       <div className="flex items-center justify-between w-full title">
@@ -17,7 +23,7 @@ const NavList = () => {
       <ul className="list-none nav-list w-full flex items-start justify-between gap-2 flex-col">
         <li className="flex items-center title p-3 justify-start w-full hover:bg-cyan-600 gap-4 rounded-lg">
           <MdRssFeed className="w-6 h-6" />
-          <NavLink to={"/trend"}>New Feed</NavLink>
+          <NavLink to={"/"}>Home</NavLink>
         </li>
         <li className="flex items-center title p-3 justify-start w-full hover:bg-cyan-600 gap-4 rounded-lg">
           <BsTree className="w-6 h-6" />

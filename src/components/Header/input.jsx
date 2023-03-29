@@ -10,7 +10,7 @@ const input = () => {
           name="search"
           id="search"
           placeholder="Search Everything"
-          className="rounded-lg py-2 px-3 bg-transparent outline-none title"
+          className="rounded-lg py-2 px-3 search-header bg-transparent outline-none title"
         />
       </label>
     </>

@@ -46,3 +46,25 @@
 input[type="search"]::-webkit-search-cancel-button {
   display: none;
 }
+.hide-nav {
+  width: 0 !important;
+  padding: 0;
+  opacity: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .navbar {
+    width: 250px !important;
+    opacity: 1;
+    border-right: 2px solid black;
+    background: #000 !important;
+    z-index: 150;
+  }
+  .hide-nav {
+    width: 0px !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+}

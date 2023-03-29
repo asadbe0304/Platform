@@ -7,5 +7,10 @@ export const reducers = (state, action) => {
         ...state,
         open: action.payload,
       };
+    case "NAVBAR":
+      return {
+        ...state,
+        navbar: action.payload,
+      };
   }
 };

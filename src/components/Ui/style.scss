@@ -12,3 +12,36 @@
   );
   box-shadow: -10px 30px 80px rgba(59, 38, 123, 0.7);
 }
+
+@media screen and (max-width: 940px) {
+  .game-cards {
+    justify-content: center !important;
+  }
+  .card {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .game-cards {
+    justify-content: center !important;
+  }
+  .card {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 504px) {
+  .game-cards {
+    justify-content: center !important;
+  }
+  .card {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .game-cards {
+    justify-content: center !important;
+  }
+  .card {
+    width: 100%;
+  }
+}

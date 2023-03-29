@@ -5,6 +5,7 @@ const context = createContext({});
 
 const initialState = {
   open: false,
+  navbar: false,
 };
 
 export const ContextProvider = ({ children }) => {

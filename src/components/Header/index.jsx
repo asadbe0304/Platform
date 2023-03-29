@@ -4,15 +4,23 @@ import Inbox from "./inbox";
 import Browser from "./browser";
 import Input from "./input";
 import Avatar from "./account";
-import Hero from "./../Main";
+import { customHook } from "../../hooks/hooks";
+
 const index = () => {
+  const {
+    state: { navbar },
+  } = customHook();
   return (
     <>
       <div className="container">
-        <div className="flex items-center header justify-between gap-1">
+        <div
+          className={`${
+            navbar ? "hide-header" : "header"
+          } flex items-center justify-between gap-1`}
+        >
           <Browser />
-          <Input />
           <div className="flex items-center justify-between gap-4">
+            <Input />
             <Inbox />
             <Avatar />
           </div>
